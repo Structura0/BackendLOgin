@@ -13,6 +13,8 @@ exports.get = (req, res) => {
         .then(result => {
             console.log(result);
 
+
+
             if (result) {
                 res.status(200).json({
                     modelo: result,
